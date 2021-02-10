@@ -1,6 +1,6 @@
 # Digital Clock
 
-Simple Web Digital Clock using Vanilla Javascript. [[Demo]](https://github.com/coach-oox/digital-clock)  
+Simple Web Digital Clock using Vanilla Javascript. [[Demo]](https://coach-oox.github.io/digital-clock/)  
 🎈 Vanilla JS Project for Beginners.
 
 ## Preview
