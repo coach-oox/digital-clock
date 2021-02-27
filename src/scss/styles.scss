@@ -8,34 +8,46 @@
 
 body {
     display: flex;
+    height: 100vh;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family: $base-font;
-    background-color: $grey;
+    font-size: 12px;
+    background: linear-gradient(to right, #b79891, #94716b);
+}
+
+.container {
+    background-color: $red;
+    border: 10px solid $grey;
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .date {
     text-align: center;
-    color: $white;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: $black;
+    color: $begie;
+    margin-bottom: 1em;
 }
 
 .clock {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $white;
-    margin: 1em 0;
-
-    > div:nth-child(2) {
-        margin: 0 0.5em;
-    }
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 150px;
+    column-gap: 1em;
 }
 
 .time {
-    background-color: $black;
-    border-radius: 15px;
-    padding: 2em;
-    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 7em;
+    background-color: $begie;
+    border-radius: 5px;
+    padding: 0.2em;
 }
