@@ -1,7 +1,10 @@
+Vanilla (Pure) Javascript project for beginners.  
+Check more projects [here](https://github.com/coachoox/vanilla-js-projects).
+
 # Digital Clock
 
-Simple Web Digital Clock using Vanilla Javascript. [[Demo]](https://coach-oox.github.io/digital-clock/)  
-🎈 Vanilla JS Project for Beginners.
+Simple digital clock using Vanilla Javascript.  
+[[Demo]](https://coachoox.github.io/js-digital-clock/)  
 
 ## Preview
 
